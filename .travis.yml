@@ -3,18 +3,15 @@ osx_image: xcode10.2
 
 language: bash
 
-
 before_install:
   - whoami
   - echo "start of pipeline"
   - HOMEBREW_NO_AUTO_UPDATE=1
-
 
 script:
   - ls
   - chmod +x hello.sh
   - ./hello.sh
   
- 
- after_script:
+after_script:
   - echo "ENd of Pipline"
