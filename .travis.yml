@@ -1,7 +1,7 @@
-os:osx
+os: osx
 osx_image: xcode10.2
 
-language:bash
+language: bash
 
 
 before_install:
