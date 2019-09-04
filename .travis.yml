@@ -4,7 +4,7 @@ osx_image: xcode10.2
 language: bash
 
 git: 
-  depth:false
+  depth: false
 
 before_cache:
   - brew cleanup
