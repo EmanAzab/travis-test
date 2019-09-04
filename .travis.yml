@@ -13,5 +13,5 @@ script:
   - chmod +x hello.sh
   - ./hello.sh
   
-  after_script:
+after_script:
   - echo "ENd of Pipline"
