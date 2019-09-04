@@ -3,8 +3,7 @@ osx_image: xcode10.2
 
 language: bash
 
-git:
-  depth:false
+git: depth:false
 
 before_cache:
   - brew cleanup
